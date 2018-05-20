@@ -7,7 +7,7 @@
 
 // ----- ofGraphicsConstants.h -----
 
-%include "graphics/ofGraphicsConstants.h"
+//%include "graphics/ofGraphicsConstants.h"
 
 // ----- ofPixels.h -----
 

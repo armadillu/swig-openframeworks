@@ -146,6 +146,9 @@ class std::fstream {};
 // DIFF: ofURLFileLoader.h: ignoring ofURLResponseEvent()
 %ignore ofURLResponseEvent();
 
+%ignore ofSaveURLAsync;
+%ignore ofSaveURLTo;
+
 %include "utils/ofURLFileLoader.h"
 
 // ----- ofUtils.h -----

@@ -40,7 +40,7 @@ typedef float GLfloat;
 // ----- ofMathConstants.h -----
 
 // include early for glm::vec* declarations
-%include "math/ofMathConstants.h"
+//%include "math/ofMathConstants.h"
 
 // ----- ofUtils.h -----
 
@@ -184,7 +184,7 @@ template<typename T> class ofBaseImage_ {};
 %ignore ofBaseMaterial;
 
 // include header for derived classes
-%include "graphics/ofGraphicsBaseTypes.h"
+//%include "graphics/ofGraphicsBaseTypes.h"
 
 // ----- ofSoundBaseTypes.h -----
 
@@ -194,7 +194,7 @@ template<typename T> class ofBaseImage_ {};
 %ignore ofBaseSoundOutput;
 
 // include header for derived classes
-%include "sound/ofSoundBaseTypes.h"
+//%include "sound/ofSoundBaseTypes.h"
 
 // ----- ofVideoBaseTypes.h -----
 
@@ -206,4 +206,4 @@ template<typename T> class ofBaseImage_ {};
 %ignore ofBaseVideoPlayer;
 
 // include header for derived classes
-%include "video/ofVideoBaseTypes.h"
+//%include "video/ofVideoBaseTypes.h"
